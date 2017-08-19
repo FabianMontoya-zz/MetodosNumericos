@@ -35,21 +35,35 @@ namespace MetodosNumericos1
                 Console.WriteLine("x2 = " + x2 + " ; f(x2) = " + fx2);
                 if (loops > 0)
                 {
-                    string abs = "" + Math.Abs(x2 - x2Old);
+                    //string abs = "" + Math.Abs(x2 - x2Old);
+
+                    double abs = Math.Abs(x2 - x2Old);
+
                     Console.WriteLine("Absoluto = " + abs);
-                    int tam = abs.Length;
-                    try
+
+                    //Console.WriteLine("Elevado: " + (xx * Math.Pow(10, 10)));
+
+                    if ((abs * Math.Pow(10, 10)) < 1 && (abs * Math.Pow(10, 10)) > 0) //Llegamos a E-11
                     {
-                        string notacion = abs.Substring((tam - 4), 4);
-                        if (notacion.ToUpper().Contains("E-11"))
-                        {
-                            Console.WriteLine("===========================================");
-                            Console.WriteLine("===========================================");
-                            Console.WriteLine("** La raiz es: " + x2);
-                            break;
-                        }
+                        Console.WriteLine("===========================================");
+                        Console.WriteLine("===========================================");
+                        Console.WriteLine("** La raiz es: " + x2);
+                        break;
                     }
-                    catch { }
+
+                    //int tam = abs.Length;
+                    //try
+                    //{
+                    //    string notacion = abs.Substring((tam - 4), 4);
+                    //    if (notacion.ToUpper().Contains("E-11"))
+                    //    {
+                    //        Console.WriteLine("===========================================");
+                    //        Console.WriteLine("===========================================");
+                    //        Console.WriteLine("** La raiz es: " + x2);
+                    //        break;
+                    //    }
+                    //}
+                    //catch { }
                 }
                 if (fx0 * fx2 >= 0)
                 {

@@ -4,3 +4,9 @@ c:\users\fabian\documents\visual studio 2015\Projects\MNSecante\MNSecante\bin\De
 c:\users\fabian\documents\visual studio 2015\Projects\MNSecante\MNSecante\obj\Debug\MNSecante.csprojResolveAssemblyReference.cache
 c:\users\fabian\documents\visual studio 2015\Projects\MNSecante\MNSecante\obj\Debug\MNSecante.exe
 c:\users\fabian\documents\visual studio 2015\Projects\MNSecante\MNSecante\obj\Debug\MNSecante.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.csprojResolveAssemblyReference.cache
