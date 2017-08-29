@@ -60,12 +60,30 @@ namespace MNDerivada
             Console.WriteLine("");
             Console.WriteLine("==================**************************======================");
             int tam = results.Count -1;
-            for (int i = 0; i <= tam; i++)
+            double numMenor = results[0].Resultado;
+            for (int i = 1; i <= tam; i++)
             {
                 Console.WriteLine("- Result["+i+"] = "+results[i].Resultado);
                 Console.WriteLine("- Diferencial = " + results[i].Diferencial);
                 Console.WriteLine("=====================");
+                if(results[i].Resultado < numMenor)
+                {
+                    numMenor = results[i].Resultado;
+                }
             }
+            for (int i = 1; i <= tam; i++)
+            {               
+                if (results[i].Resultado == numMenor)
+                {
+                    Console.WriteLine("========================================================");
+                    Console.WriteLine("********************** RESPUESTA ***********************");
+                    Console.WriteLine("========================================================");
+                    Console.WriteLine("El número más pequeño es: "+numMenor);
+                    Console.WriteLine("Corresponde al Diferencial: " + results[i].Diferencial);
+                    break;
+                }
+            }
+
             Console.ReadLine();
             
         }
