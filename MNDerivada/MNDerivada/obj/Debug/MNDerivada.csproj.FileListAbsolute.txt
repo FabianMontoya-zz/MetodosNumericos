@@ -1,0 +1,7 @@
+c:\users\fabian\documents\visual studio 2015\Projects\MNDerivada\MNDerivada\bin\Debug\MNDerivada.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\bin\Debug\MNDerivada.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\bin\Debug\MNDerivada.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\bin\Debug\MNDerivada.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.pdb
