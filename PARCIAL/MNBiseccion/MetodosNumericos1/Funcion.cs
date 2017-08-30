@@ -88,12 +88,12 @@ class Funcion
    //****************DERIVADA
 
 
-    public static double Derivada(double x, double x0, double x1)
+    public static double Derivada(double x, double h)
     {
 
         //Donde X
         double result = 0;
-        double h = 1;
+        //double h = 1;
 
         double xh = 0;
         double Fx = 0;
