@@ -12,8 +12,6 @@ class Funcion
     /// </summary>
     /// <param name="x"></param>
     /// <returns></returns>
-  
-
     public static double EjecutarFuncion1(double x)
     {
         double result = 0;
