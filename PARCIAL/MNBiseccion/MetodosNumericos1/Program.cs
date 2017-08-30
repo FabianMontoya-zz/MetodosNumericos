@@ -16,23 +16,24 @@ namespace MetodosNumericos1
             //PARCIAL PRIMER PUNTO, FABIAN FALTA HACER QUE EN EL PROCEDIMEINTO BISECCIÓN X2 SE GUARDE EN UNA MATRIZ Y QUE CADA VEZ QUE EL CICLO SE REPITA X1 O X0 AUMENTE 0.5 
             double x0 = 0;
             double x1 = 4;
-            int contBis=0, contSec=0;
+            double x = 1.2;
+            int contSec = 0, contDev = 0;
 
             
 
-            do
-            {
-                Funcion.Biseccion(x0, x1);
-                contBis++;
-            } while (contBis <= 5);
            
-            //Console.WriteLine("Rango inicial para X0");
 
             do
             {
                 Funcion.Secante (x0, x1);
                 contSec++;
-            } while (contSec <= 14);
+            } while (contSec <= 5);
+
+            do
+            {
+                Funcion.Derivada (x,x0, x1);
+                contSec++;
+            } while (contDev <= 14);
            
 
             Console.ReadLine();
