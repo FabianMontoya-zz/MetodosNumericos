@@ -31,7 +31,7 @@ namespace MetodosNumericos1
                 x0 = x0 + 0.5;
                 x1 = x1 + 0.5;
                 contSec++;
-            } while (resultSecante.Count <= 6);
+            } while (resultSecante.Count <= 5);
             
             do
             {
@@ -39,7 +39,7 @@ namespace MetodosNumericos1
                 x = x + 0.5;
                 h = h + 0.5;
                 contDev++;
-            } while (resultDerivada.Count <= 6);
+            } while (resultDerivada.Count <= 5);
 
 
             Console.ReadLine();
