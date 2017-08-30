@@ -9,9 +9,9 @@ class Funcion
 {  
    //*********************SECANTE
 
-    public static void Secante(double x0, double x1)
+    public static double Secante(double x0, double x1)
     {
-
+        double result = 0;
         double x2 = 0;
         double x2Old = 0;
 
@@ -44,6 +44,7 @@ class Funcion
                     Console.WriteLine("===========================================");
                     Console.WriteLine("===========================================");
                     Console.WriteLine("** La raiz es: " + x2);
+                    result = x2;
                     break;
                 }
             }
@@ -52,6 +53,7 @@ class Funcion
             x2Old = x2;
             loops++;
         }
+        return result;
     }
 
    
@@ -86,11 +88,11 @@ class Funcion
    //****************DERIVADA
 
 
-    public static void Derivada(double x, double x0, double x1)
+    public static double Derivada(double x, double x0, double x1)
     {
 
         //Donde X
-        
+        double result = 0;
         double h = 1;
 
         double xh = 0;
@@ -160,9 +162,12 @@ class Funcion
                 Console.WriteLine("========================================================");
                 Console.WriteLine("El número más pequeño es: " + numMenor);
                 Console.WriteLine("Corresponde al Diferencial: " + results[i].Diferencial);
+                result = results[i].Diferencial;
                 break;
             }
         }
+
+        return result;
 
     }
 
