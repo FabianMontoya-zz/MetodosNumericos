@@ -10,3 +10,6 @@ C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.exe
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.pdb
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.csprojResolveAssemblyReference.cache
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\bin\Debug\MNSecante.exe.config
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.exe
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNSecante\MNSecante\obj\Debug\MNSecante.pdb

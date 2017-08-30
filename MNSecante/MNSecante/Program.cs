@@ -26,8 +26,8 @@ namespace MNSecante
 
             while (loops <= Maxloops)
             {
-                fx0 = Funcion.EjecutarFuncion(x0);
-                fx1 = Funcion.EjecutarFuncion(x1);
+                fx0 = Funcion.EjecutarFuncion1(x0);
+                fx1 = Funcion.EjecutarFuncion1(x1);
                 M = Funcion.ObtenerM(x0, x1, fx0, fx1);
                 B = Funcion.ObtenerB(x0, fx0, M);
                 x2 = Funcion.ObtenerX2(M, B);

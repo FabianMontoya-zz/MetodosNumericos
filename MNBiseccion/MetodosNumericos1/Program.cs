@@ -8,31 +8,38 @@ namespace MetodosNumericos1
 {
     class Program
     {
-        Funcion funciones = new Funcion();
+        Funcion funcion = new Funcion();
+
+
         static void Main(string[] args)
         {
 
             double x0 = 0;
             double x1 = 4;
+            double ejecutar = 0;
+
+
             double x2 = 0;
             double x2Old = 0;
 
             double fx0 = 0;
             double fx1 = 0;
             double fx2 = 0;
-            //Console.WriteLine("Rango inicial para X0");
-            //x0 = Double.Parse(Console.ReadLine());
+
             int Maxloops = 200;
             int loops = 0;
 
+            //Console.WriteLine("Rango inicial para X0");
+
             while (loops <= Maxloops)
             {
-                fx0 = Funcion.EjecutarFuncion(x0);
-                fx1 = Funcion.EjecutarFuncion(x1);
+                fx0 = Funcion.EjecutarFuncion1(x0);
+                fx1 = Funcion.EjecutarFuncion1(x1);
                 x2 = Funcion.ObtenerX2(x0, x1);
-                fx2 = Funcion.EjecutarFuncion(x2);
+                fx2 = Funcion.EjecutarFuncion1(x2);
                 Console.WriteLine("lop = " + loops + ") -- X0 =" + x0 + " ; X1 = " + x1 + " ; f(x0) =" + fx0 + " ; f(x1) =" + fx1 + ";");
                 Console.WriteLine("x2 = " + x2 + " ; f(x2) = " + fx2);
+
                 if (loops > 0)
                 {
                     //string abs = "" + Math.Abs(x2 - x2Old);
@@ -79,11 +86,15 @@ namespace MetodosNumericos1
                 }
                 x2Old = x2;
                 loops++;
+
+
+
             }
 
             Console.ReadLine();
         }
 
-
     }
-}
+        }
+    
+
