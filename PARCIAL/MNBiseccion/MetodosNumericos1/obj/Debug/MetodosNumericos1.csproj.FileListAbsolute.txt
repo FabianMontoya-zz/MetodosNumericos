@@ -28,3 +28,6 @@ C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\PARCIAL\MNBiseccion\MetodosN
 C:\Users\Felipe's\Desktop\PARCIAL\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
 C:\Users\Felipe's\Desktop\PARCIAL\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
 C:\Users\Felipe's\Desktop\PARCIAL\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
+C:\VERSIONAMIENTO_OUTSOURCING\MetodosNumericos\PARCIAL\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
+C:\VERSIONAMIENTO_OUTSOURCING\MetodosNumericos\PARCIAL\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
+C:\VERSIONAMIENTO_OUTSOURCING\MetodosNumericos\PARCIAL\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
