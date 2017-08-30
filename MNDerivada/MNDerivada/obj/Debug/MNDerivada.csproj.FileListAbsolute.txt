@@ -5,3 +5,6 @@ C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\bin\Debu
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.csprojResolveAssemblyReference.cache
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.exe
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.pdb
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\bin\Debug\MNDerivada.exe.config
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.exe
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNDerivada\MNDerivada\obj\Debug\MNDerivada.pdb

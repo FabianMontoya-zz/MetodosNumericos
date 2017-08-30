@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A351ED7-9195-4E49-83F0-589B0435808C}</ProjectGuid>
+    <ProjectGuid>{1B8CA407-248A-4B63-B357-BEE4EF294308}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MNDerivada</RootNamespace>
-    <AssemblyName>MNDerivada</AssemblyName>
+    <RootNamespace>MetodosNumericos1</RootNamespace>
+    <AssemblyName>MetodosNumericos1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\DiferencialClass.cs" />
     <Compile Include="Funcion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

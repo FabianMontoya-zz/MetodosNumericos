@@ -1,0 +1,24 @@
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\bin\Debug\MetodosNumericos1.pdb
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\obj\Debug\MetodosNumericos1.csprojResolveAssemblyReference.cache
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
+c:\users\fabian\documents\visual studio 2015\Projects\MetodosNumericos1\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.csprojResolveAssemblyReference.cache
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.pdb
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.csprojResolveAssemblyReference.cache
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe.config
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.exe
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.pdb
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.exe
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\bin\Debug\MetodosNumericos1.pdb
+C:\Users\Felipe's\Desktop\MNBiseccion\MetodosNumericos1\obj\Debug\MetodosNumericos1.csprojResolveAssemblyReference.cache

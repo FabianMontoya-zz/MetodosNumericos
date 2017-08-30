@@ -16,6 +16,46 @@ class Funcion
         result = (x) * Math.Exp((x));
         return result;
     }
+
+    public static double EjecutarFuncion2(double x)
+    {
+        //F(x) = 60(x^45)-32(x^33)+233(x^5)-47(x^2)-77
+        double result = 0;
+        result = (60 * (Math.Pow(x, 45))) - (32 * (Math.Pow(x, 33))) + (233 * (Math.Pow(x, 5))) - (47 * (Math.Pow(x, 2))) -77;
+        return result;
+    }
+
+    public static double EjecutarFuncion3(double x)
+    {
+         //tan(cos((sqrt(5+sen(x))/(1+x2))
+        double result = 0;
+        result = Math.Tan(Math.Cos((Math.Sqrt(5) + Math.Sin(x)) / (1 + (Math.Pow(x, 2)))));
+        return result;
+    }
+
+    public static double EjecutarFuncion4(double x)
+    {
+       //sen(cos(1/x))
+        double result = 0;
+        result = Math.Sin(Math.Cos(1 / x));
+        return result;
+    }
+
+    public static double EjecutarFuncion5(double x)
+    {
+        //sen((x^3)-7(x^2)+6(x)+8) 
+        double result = 0;
+        result = Math.Sin((Math.Pow(x, 3))+ (7*(Math.Pow(x, 2))) +6*(x) + 8);
+        return result;
+    }
+
+    public static double EjecutarFuncion6(double x)
+    {
+        //((x)^x)^x )
+        double result = 0;
+        result = (Math.Pow(x, ((Math.Pow(x, x)))));
+        return result;
+    }
     /// <summary>
     /// Función que retorna el valor que ha de obtener H según un valor inicial obtenido
     /// </summary>
