@@ -19,6 +19,9 @@ class Funcion
         double fx1 = 0;
         double M = 0;
         double B = 0;
+
+        int [] MATRIZ= new int [5];
+
         //Console.WriteLine("Rango inicial para X0");
         //x0 = Double.Parse(Console.ReadLine());
         int Maxloops = 200;
@@ -31,19 +34,19 @@ class Funcion
             M = Funcion.ObtenerM(x0, x1, fx0, fx1);
             B = Funcion.ObtenerB(x0, fx0, M);
             x2 = Funcion.ObtenerX2Sec(M, B);
-            Console.WriteLine("lop = " + loops + ") -- X0 =" + x0 + " ; X1 = " + x1 + " ; f(x0) =" + fx0 + " ; f(x1) =" + fx1 + ";");
-            Console.WriteLine("M = " + M + " ; B = " + B + " ; x2 = " + x2 + " ;");
+            //Console.WriteLine("lop = " + loops + ") -- X0 =" + x0 + " ; X1 = " + x1 + " ; f(x0) =" + fx0 + " ; f(x1) =" + fx1 + ";");
+            //Console.WriteLine("M = " + M + " ; B = " + B + " ; x2 = " + x2 + " ;");
             if (loops > 0)
             {
                 double abs = Math.Abs(x2 - x2Old);
 
-                Console.WriteLine("Absoluto = " + abs);
-                //Console.WriteLine("Elevado: " + (xx * Math.Pow(10, 10)));
+               // Console.WriteLine("Absoluto = " + abs);
+                ////Console.WriteLine("Elevado: " + (xx * Math.Pow(10, 10)));
                 if ((abs * Math.Pow(10, 10)) < 1 && (abs * Math.Pow(10, 10)) > 0) //Llegamos a E-11
                 {
-                    Console.WriteLine("===========================================");
-                    Console.WriteLine("===========================================");
-                    Console.WriteLine("** La raiz es: " + x2);
+                   // Console.WriteLine("===========================================");
+                   // Console.WriteLine("===========================================");
+                    Console.WriteLine("** La raiz es: " +  x2);
                     break;
                 }
             }
