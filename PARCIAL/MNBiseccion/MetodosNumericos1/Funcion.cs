@@ -6,22 +6,9 @@ using System.Threading.Tasks;
 
 
 class Funcion
-{
-    /// <summary>
-    /// Ejecuta la función 3.2(x)^2 + 2.7(x) - 1.3 ; recibe valor para X y retorna resultado
-    /// </summary>
-    /// <param name="x"></param>
-    /// <returns></returns>
-    /// 
-
-
+{  
     public static void Biseccion(double x0, double x1)
     {
-
-        
-        
-
-
         double x2 = 0;
         double x2Old = 0;
 
@@ -57,20 +44,6 @@ class Funcion
                     Console.WriteLine("** La raiz es: " + x2);
                     break;
                 }
-
-                //int tam = abs.Length;
-                //try
-                //{
-                //    string notacion = abs.Substring((tam - 4), 4);
-                //    if (notacion.ToUpper().Contains("E-11"))
-                //    {
-                //        Console.WriteLine("===========================================");
-                //        Console.WriteLine("===========================================");
-                //        Console.WriteLine("** La raiz es: " + x2);
-                //        break;
-                //    }
-                //}
-                //catch { }
             }
             if (fx0 * fx2 >= 0)
             {
@@ -87,13 +60,8 @@ class Funcion
 
             x2Old = x2;   
         
-            loops++;
-
-            
-
+            loops++;     
         }
-
-        
     }
 
     public static void Secante(double x0, double x1)
