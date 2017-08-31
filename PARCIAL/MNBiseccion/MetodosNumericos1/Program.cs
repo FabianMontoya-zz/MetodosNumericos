@@ -13,7 +13,7 @@ namespace MetodosNumericos1
 
         static void Main(string[] args)
         {
-            //PARCIAL PRIMER PUNTO, FABIAN FALTA HACER QUE EN EL PROCEDIMEINTO BISECCIÓN X2 SE GUARDE EN UNA MATRIZ Y QUE CADA VEZ QUE EL CICLO SE REPITA X1 O X0 AUMENTE 0.5 
+           
             double x0 = 0.4;
             double x1 = 0.7;
 
@@ -25,6 +25,10 @@ namespace MetodosNumericos1
 
             List<double> resultSecante = new List<double>();
             List<double> resultDerivada = new List<double>();
+
+            Console.WriteLine("==================================");
+            Console.WriteLine("============ SECANTES ============");
+            Console.WriteLine("==================================");
             do
             {
                 resultSecante.Add(Funcion.Secante(x0, x1));
@@ -32,15 +36,32 @@ namespace MetodosNumericos1
                 x1 = x1 + 0.5;
                 contSec++;
             } while (resultSecante.Count <= 5);
-            
+
+            Console.WriteLine("===================================");
+            Console.WriteLine("============ DERIVADAS ============");
+            Console.WriteLine("===================================");
             do
             {
                 resultDerivada.Add(Funcion.Derivada(x, h));
                 x = x + 0.5;
                 h = h + 0.5;
                 contDev++;
-            } while (resultDerivada.Count <= 5);
+            } while (resultDerivada.Count <= 15);
 
+            Console.WriteLine("==================================");
+            Console.WriteLine("============ SECANTES ============");
+            Console.WriteLine("==================================");
+            for (int i = 0; i<6; i++)
+            {
+                Console.WriteLine("[" + i + "] - "+ resultSecante[i]);
+            }
+            Console.WriteLine("===================================");
+            Console.WriteLine("============ DERIVADAS ============");
+            Console.WriteLine("===================================");
+            for (int i = 0; i < 16; i++)
+            {
+                Console.WriteLine("[" + i + "] - " + resultDerivada[i]);
+            }
 
             Console.ReadLine();
         }

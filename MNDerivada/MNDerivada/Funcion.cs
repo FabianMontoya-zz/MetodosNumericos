@@ -5,6 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 class Funcion
 {
+
+    public static double EjecutarFuncionQuiz(double x)
+    {
+        double result = 0;
+        double elevado = Math.Pow(x, 2);
+        result = Math.Pow(x, elevado);
+        return result;
+    }
+
     /// <summary>
     /// Ejecuta la función F(x) = xe^x recibe valor para X y retorna resultado
     /// </summary>

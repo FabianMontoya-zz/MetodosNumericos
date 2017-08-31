@@ -131,6 +131,9 @@ class Funcion
                 {
                     Console.WriteLine("");
                     Console.WriteLine("Absoluto = " + abs);
+                    //res.Resultado = abs;
+                    //res.Diferencial = df;
+                    //results.Add(res);
                     break;
                 }
             }
