@@ -11,8 +11,8 @@ namespace MNDerivada
         static void Main(string[] args)
         {
             //Donde X
-            double x = 1.2;
-            double h = 1;
+            double x = 0.219;
+            double h = 0.1;
 
             double xh = 0;
             double Fx = 0;
@@ -23,34 +23,34 @@ namespace MNDerivada
             List<DiferencialClass> results = new List<DiferencialClass>();
             int loops = 1;
 
-            while(loops <= 20)
+            while(loops <= 13)
             {
                 Console.WriteLine("- Loop: "+loops);
                 Console.WriteLine("");
                 Console.WriteLine("H = "+h+"  -  X = "+x);
                 xh = x + h;
-                Fx = Funcion.EjecutarFuncion1(x);
-                Fxh = Funcion.EjecutarFuncion1(xh);
+                Fx = Funcion.EjecutarFuncionQuiz(x);
+                Fxh = Funcion.EjecutarFuncionQuiz(xh);
                 df = Funcion.obtenerDiferencial(Fx, Fxh, h);
                 Console.WriteLine("X+H = "+xh+"  -  F(x) = "+Fx+"  -  F(x+h) = "+Fxh);
                 Console.WriteLine("DF = "+df);
                 if (loops > 1)
                 {
                     double abs = Math.Abs(df - dfOld);
-                    if (abs != 0)
-                    {
+                   // if (abs != 0)
+                   // {
                         Console.WriteLine("");
                         Console.WriteLine("Absoluto = " + abs);
                         DiferencialClass res = new DiferencialClass();
                         res.Resultado = abs;
                         res.Diferencial = df;
                         results.Add(res);
-                    }else
-                    {
-                        Console.WriteLine("");
-                        Console.WriteLine("Absoluto = " + abs);
-                        break;
-                    }
+                    //}else
+                    //{
+                        //Console.WriteLine("");
+                        //Console.WriteLine("Absoluto = " + abs);
+                      //  break;
+                    //}
                 }
                 Console.WriteLine("====================================================");
                 h = Funcion.obtenerH(h);

@@ -9,9 +9,9 @@ class Funcion
 {  
    //*********************SECANTE
 
-    public static void Secante(double x0, double x1)
+    public static double Secante(double x0, double x1)
     {
-
+        double result = 0;
         double x2 = 0;
         double x2Old = 0;
 
@@ -44,9 +44,16 @@ class Funcion
                 ////Console.WriteLine("Elevado: " + (xx * Math.Pow(10, 10)));
                 if ((abs * Math.Pow(10, 10)) < 1 && (abs * Math.Pow(10, 10)) > 0) //Llegamos a E-11
                 {
+<<<<<<< HEAD
                    // Console.WriteLine("===========================================");
                    // Console.WriteLine("===========================================");
                     Console.WriteLine("** La raizes: " + MATRIZ[x2] );
+=======
+                    Console.WriteLine("===========================================");
+                    Console.WriteLine("===========================================");
+                    Console.WriteLine("** La raiz es: " + x2);
+                    result = x2;
+>>>>>>> 0f96f939c997a6fe5cf4ffe3302fd7a1fc7564e3
                     break;
                 }
             }
@@ -55,6 +62,7 @@ class Funcion
             x2Old = x2;
             loops++;
         }
+        return result;
     }
 
    
@@ -89,12 +97,12 @@ class Funcion
    //****************DERIVADA
 
 
-    public static void Derivada(double x, double x0, double x1)
+    public static double Derivada(double x, double h)
     {
 
         //Donde X
-        
-        double h = 1;
+        double result = 0;
+        //double h = 1;
 
         double xh = 0;
         double Fx = 0;
@@ -132,6 +140,9 @@ class Funcion
                 {
                     Console.WriteLine("");
                     Console.WriteLine("Absoluto = " + abs);
+                    //res.Resultado = abs;
+                    //res.Diferencial = df;
+                    //results.Add(res);
                     break;
                 }
             }
@@ -163,9 +174,12 @@ class Funcion
                 Console.WriteLine("========================================================");
                 Console.WriteLine("El número más pequeño es: " + numMenor);
                 Console.WriteLine("Corresponde al Diferencial: " + results[i].Diferencial);
+                result = results[i].Diferencial;
                 break;
             }
         }
+
+        return result;
 
     }
 
