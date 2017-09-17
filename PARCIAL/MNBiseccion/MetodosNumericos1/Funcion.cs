@@ -20,7 +20,7 @@ class Funcion
         double M = 0;
         double B = 0;
 
-        int [] MATRIZ= new int [5];
+       int [] MATRIZ= int [5];
 
         //Console.WriteLine("Rango inicial para X0");
         //x0 = Double.Parse(Console.ReadLine());
@@ -46,7 +46,7 @@ class Funcion
                 {
                    // Console.WriteLine("===========================================");
                    // Console.WriteLine("===========================================");
-                    Console.WriteLine("** La raiz es: " +  x2);
+                    Console.WriteLine("** La raizes: " + MATRIZ[x2] );
                     break;
                 }
             }
