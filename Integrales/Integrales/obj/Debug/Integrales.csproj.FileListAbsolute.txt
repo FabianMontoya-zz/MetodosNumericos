@@ -1,2 +1,8 @@
 c:\users\felipe's\documents\visual studio 2013\Projects\Integrales\Integrales\bin\Debug\Integrales.exe.config
 C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\Integrales\Integrales\bin\Debug\Integrales.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\bin\Debug\Integrales.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\bin\Debug\Integrales.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\bin\Debug\Integrales.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.pdb
