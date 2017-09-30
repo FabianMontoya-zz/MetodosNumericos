@@ -6,3 +6,5 @@ C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\bin\Debu
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.csprojResolveAssemblyReference.cache
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.exe
 C:\Users\Fabian\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.pdb
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.exe
+C:\Users\Felipe's\Documents\GitHub\MetodosNumericos\Integrales\Integrales\obj\Debug\Integrales.pdb
