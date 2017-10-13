@@ -1,0 +1,11 @@
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\bin\Debug\Parcial2.exe.config
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\bin\Debug\Parcial2.exe
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\bin\Debug\Parcial2.pdb
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.csprojResolveAssemblyReference.cache
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.Form1.resources
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.Properties.Resources.resources
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.SegundoPunto.resources
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.csproj.GenerateResource.Cache
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.exe
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.pdb
+c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.PrimerPunto.resources
