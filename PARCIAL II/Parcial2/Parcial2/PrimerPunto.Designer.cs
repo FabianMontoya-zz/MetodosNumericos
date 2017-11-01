@@ -40,6 +40,8 @@
             this.txtN = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridResult = new System.Windows.Forms.DataGridView();
+            this.txtVolFinal = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,14 +149,33 @@
             this.dataGridResult.Location = new System.Drawing.Point(15, 109);
             this.dataGridResult.Name = "dataGridResult";
             this.dataGridResult.ReadOnly = true;
-            this.dataGridResult.Size = new System.Drawing.Size(774, 201);
+            this.dataGridResult.Size = new System.Drawing.Size(774, 237);
             this.dataGridResult.TabIndex = 11;
+            // 
+            // txtVolFinal
+            // 
+            this.txtVolFinal.Location = new System.Drawing.Point(251, 67);
+            this.txtVolFinal.Name = "txtVolFinal";
+            this.txtVolFinal.ReadOnly = true;
+            this.txtVolFinal.Size = new System.Drawing.Size(134, 20);
+            this.txtVolFinal.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(171, 70);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(76, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Volumen Final:";
             // 
             // PrimerPunto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 358);
+            this.ClientSize = new System.Drawing.Size(801, 358);
+            this.Controls.Add(this.txtVolFinal);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridResult);
             this.Controls.Add(this.txtN);
             this.Controls.Add(this.label5);
@@ -189,5 +210,7 @@
         private System.Windows.Forms.TextBox txtN;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridResult;
+        private System.Windows.Forms.TextBox txtVolFinal;
+        private System.Windows.Forms.Label label6;
     }
 }

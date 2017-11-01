@@ -19,16 +19,16 @@ namespace Parcial2
 
         private void CalcularFuncion()
         {
-            double A = double.Parse(txtA.Text.ToString());
-            double B = double.Parse(txtB.Text.ToString());
-            double C = double.Parse(txtC.Text.ToString());
-            double D = double.Parse(txtD.Text.ToString());
+            double A = double.Parse(txtA.Text.ToString().Replace('.', ','));
+            double B = double.Parse(txtB.Text.ToString().Replace('.', ','));
+            double C = double.Parse(txtC.Text.ToString().Replace('.', ','));
+            double D = double.Parse(txtD.Text.ToString().Replace('.', ','));
 
             double N = double.Parse(txtN.Text.ToString());
 
             double deltaX = (D - C) / N;
             double deltaY = (B - A) / N;
-            
+
             List<VolumenClass> listVolumen = new List<VolumenClass>();
             VolumenClass volumen;
             PrimerClass operaciones = new PrimerClass();
@@ -45,9 +45,9 @@ namespace Parcial2
 
             listVolumen.Add(volumen);
 
-            for (double j = 0; j<= D; j = j + deltaX)
+            for (double j = A; j <= B; j = j + deltaX)
             {
-                for (double i = 0; i<D; i = i + deltaY)
+                for (double i = C; i < D; i = i + deltaY)
                 {
                     volumen = new VolumenClass();
                     y0 = y0 + deltaY;
@@ -59,13 +59,14 @@ namespace Parcial2
                     volumenTotal = volumenTotal + volumen.volumen;
                 }
 
-                if (x0 < D)
+                if (x0 < B)
                 {
                     x0 = x0 + deltaX;
                     y0 = C;
                 }
             }
             dataGridResult.DataSource = listVolumen;
+            txtVolFinal.Text = volumenTotal.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

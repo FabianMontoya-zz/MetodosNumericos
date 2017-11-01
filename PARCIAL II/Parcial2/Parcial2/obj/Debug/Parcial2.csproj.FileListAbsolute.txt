@@ -9,3 +9,14 @@ c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debu
 c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.exe
 c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.pdb
 c:\users\fabian\documents\visual studio 2015\Projects\Parcial2\Parcial2\obj\Debug\Parcial2.PrimerPunto.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\bin\Debug\Parcial2.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\bin\Debug\Parcial2.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\bin\Debug\Parcial2.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.Form1.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.PrimerPunto.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.Properties.Resources.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.SegundoPunto.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\PARCIAL II\Parcial2\Parcial2\obj\Debug\Parcial2.csproj.GenerateResource.Cache
