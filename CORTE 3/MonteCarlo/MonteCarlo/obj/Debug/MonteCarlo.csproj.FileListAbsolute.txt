@@ -1,0 +1,9 @@
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.exe.config
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.exe
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.pdb
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.csprojResolveAssemblyReference.cache
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.Montecarlo.resources
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.Properties.Resources.resources
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.csproj.GenerateResource.Cache
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.exe
+c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.pdb
