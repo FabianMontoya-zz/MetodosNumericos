@@ -9,10 +9,16 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Parcial2</RootNamespace>
     <AssemblyName>Parcial2</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+=======
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -87,7 +93,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+<<<<<<< HEAD
       <DesignTime>True</DesignTime>
+=======
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
     </Compile>
     <EmbeddedResource Include="SegundoPunto.resx">
       <DependentUpon>SegundoPunto.cs</DependentUpon>

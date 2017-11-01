@@ -40,6 +40,11 @@
             this.txtN = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridResult = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
+=======
+            this.txtVolFinal = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
             ((System.ComponentModel.ISupportInitialize)(this.dataGridResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,7 +116,10 @@
             this.txtC.Size = new System.Drawing.Size(62, 20);
             this.txtC.TabIndex = 6;
             this.txtC.Text = "0";
+<<<<<<< HEAD
             this.txtC.TextChanged += new System.EventHandler(this.txtC_TextChanged);
+=======
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
             // 
             // label4
             // 
@@ -148,14 +156,43 @@
             this.dataGridResult.Location = new System.Drawing.Point(15, 109);
             this.dataGridResult.Name = "dataGridResult";
             this.dataGridResult.ReadOnly = true;
+<<<<<<< HEAD
             this.dataGridResult.Size = new System.Drawing.Size(774, 201);
             this.dataGridResult.TabIndex = 11;
             // 
+=======
+            this.dataGridResult.Size = new System.Drawing.Size(774, 237);
+            this.dataGridResult.TabIndex = 11;
+            // 
+            // txtVolFinal
+            // 
+            this.txtVolFinal.Location = new System.Drawing.Point(251, 67);
+            this.txtVolFinal.Name = "txtVolFinal";
+            this.txtVolFinal.ReadOnly = true;
+            this.txtVolFinal.Size = new System.Drawing.Size(134, 20);
+            this.txtVolFinal.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(171, 70);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(76, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Volumen Final:";
+            // 
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
             // PrimerPunto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(860, 358);
+=======
+            this.ClientSize = new System.Drawing.Size(801, 358);
+            this.Controls.Add(this.txtVolFinal);
+            this.Controls.Add(this.label6);
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
             this.Controls.Add(this.dataGridResult);
             this.Controls.Add(this.txtN);
             this.Controls.Add(this.label5);
@@ -190,5 +227,10 @@
         private System.Windows.Forms.TextBox txtN;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridResult;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.TextBox txtVolFinal;
+        private System.Windows.Forms.Label label6;
+>>>>>>> 7fe72cae0d4460c7e0b2b19861f9b7b55f34f7b3
     }
 }
