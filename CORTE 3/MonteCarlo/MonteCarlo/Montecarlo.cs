@@ -17,6 +17,10 @@ namespace MonteCarlo
             InitializeComponent();
         }
 
+        private void Montecarlo_Load(object sender, EventArgs e)
+        {
+
+        }
         private void rUnica_CheckedChanged(object sender, EventArgs e)
         {
             PVariasPruebas.Visible = false;
@@ -25,6 +29,7 @@ namespace MonteCarlo
             txtVolumen.Text = "";
             txtPromedio.Text = "";
             txtVarianza.Text = "";
+            txtDesviaciónEstandar.Text = "";
             dataCalculosMontecarlo.DataSource = null;
             P_ResultUnico.Visible = true;
             P_ResultVarios.Visible = false;
@@ -38,6 +43,7 @@ namespace MonteCarlo
             txtVolumen.Text = "";
             txtPromedio.Text = "";
             txtVarianza.Text = "";
+            txtDesviaciónEstandar.Text = "";
             dataCalculosMontecarlo.DataSource = null;
             P_ResultUnico.Visible = false;
             P_ResultVarios.Visible = true;
@@ -85,7 +91,7 @@ namespace MonteCarlo
                 double Alto = b - a;
 
                 Funciones funciones = new Funciones();
-                List<MontecarloClass> ListResult = new List<MontecarloClass>();
+                
 
                 double numX = funciones.getNumMayor(Math.Abs(c), Math.Abs(d)); //Para X
                 double numY = funciones.getNumMayor(Math.Abs(a), Math.Abs(b)); //Para Y
@@ -93,6 +99,7 @@ namespace MonteCarlo
                 double z = funciones.getZ(numX, numY, 3); //Se envia el 3 por la función
                 if (!varias)
                 {
+                    List<MontecarloClass> ListResult = new List<MontecarloClass>();
                     for (int i = 1; i <= N; i++)
                     {
                         MontecarloClass fila = new MontecarloClass();
@@ -116,6 +123,7 @@ namespace MonteCarlo
                     List<double> Volumenes = new List<double>();
                     for (int j = 1; j <= NumPruebas; j++)
                     {
+                        List<MontecarloClass> ListResult = new List<MontecarloClass>();
                         for (int i = 1; i <= N; i++)
                         {
                             MontecarloClass fila = new MontecarloClass();
@@ -144,12 +152,14 @@ namespace MonteCarlo
                     }
 
                     dataCalculosMontecarlo.DataSource = volumenes;
-
+                    double DE = Math.Sqrt(Varianza / (N - 1));
                     txtPromedio.Text = Promedio.ToString();
                     txtVarianza.Text = Varianza.ToString();
+                    txtDesviaciónEstandar.Text = DE.ToString();
                 }
 
             }
         }
+       
     }
 }

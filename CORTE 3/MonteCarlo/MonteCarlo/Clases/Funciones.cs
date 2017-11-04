@@ -108,8 +108,10 @@ class Funciones
     {
         double result = 0;
         // Wait to allow the timer to advance.
-        Thread.Sleep(1);
-        Random r = new Random();
+        Thread.Sleep(2);
+        //Random r = new Random(DateTime.Now.Millisecond);
+        Random r = new Random(DateTime.Now.Millisecond);
+
         double AL = r.NextDouble();
         result = AL * Z;
         return result;
@@ -124,9 +126,9 @@ class Funciones
     {
         double result = 0;
         // Wait to allow the timer to advance.
-        Thread.Sleep(1);
-        Random r = new Random();
-        //Random r = new Random();
+        Thread.Sleep(2);
+        //var r = new Random((int)DateTime.Now.Ticks);
+        Random r = new Random(DateTime.Now.Millisecond);
         double AL = r.NextDouble();
         result = AL * (d - c) + c;
         return result;
@@ -141,8 +143,8 @@ class Funciones
     {
         double result = 0;
         // Wait to allow the timer to advance.
-        Thread.Sleep(1);
-        Random r = new Random();
+        Thread.Sleep(2);
+        Random r = new Random(DateTime.Now.Millisecond);
         double AL = r.NextDouble();
         result = AL * (b - a) + a;
         return result;

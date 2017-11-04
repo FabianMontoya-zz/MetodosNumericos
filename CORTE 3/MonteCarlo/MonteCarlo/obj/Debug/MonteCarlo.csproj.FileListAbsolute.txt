@@ -7,3 +7,12 @@ c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\
 c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.csproj.GenerateResource.Cache
 c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.exe
 c:\users\fabian\documents\visual studio 2015\Projects\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\bin\Debug\MonteCarlo.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.Montecarlo.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.Properties.Resources.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\MonteCarlo\MonteCarlo\obj\Debug\MonteCarlo.csproj.GenerateResource.Cache
