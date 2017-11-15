@@ -90,9 +90,9 @@ namespace CaminosAleatorios
             {
                 MessageBox.Show("Recuerde que si ha descargado algún resultado antes y no lo ha movido o renombrado el sistema lo remplazará automaticamente", "Información Datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 ExportToExcel.CreateExcelFile.CreateExcelDocument(Experimento, @"C:\Users\Public\Documents\DatosExperimentoPasos.xlsx");
-                Process.Start(@"C:\Users\Public\Documents\");
+                
                 MessageBox.Show(@"El archivo « DatosExperimentoPasos.xlsx » se ha creado en la ruta C:\Users\Acceso Público\Documentos públicos", "Archivo Generado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                Process.Start(@"C:\Users\Public\Documents\");
             }
             else
             {

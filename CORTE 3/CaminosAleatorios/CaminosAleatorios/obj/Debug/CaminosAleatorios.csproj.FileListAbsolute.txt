@@ -8,3 +8,11 @@ c:\users\fabian\documents\visual studio 2015\Projects\CaminosAleatorios\CaminosA
 c:\users\fabian\documents\visual studio 2015\Projects\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.csproj.GenerateResource.Cache
 c:\users\fabian\documents\visual studio 2015\Projects\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.exe
 c:\users\fabian\documents\visual studio 2015\Projects\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\bin\Debug\CaminosAleatorios.exe.config
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\bin\Debug\CaminosAleatorios.exe
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\bin\Debug\CaminosAleatorios.pdb
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.CaminosAleatorios.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.Properties.Resources.resources
+C:\Users\Fabian\Documents\GitHub\MetodosNumericos\CORTE 3\CaminosAleatorios\CaminosAleatorios\obj\Debug\CaminosAleatorios.csproj.GenerateResource.Cache
