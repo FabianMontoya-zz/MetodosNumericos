@@ -46,6 +46,13 @@ namespace CaminosAleatorios
                 //Cantidad de experimentos a realizar (Veces que se inicia desde el punto cero)            
                 for (int i = 1; i <= experimentos; i++)
                 {
+                    //Posición inicial del experimento
+                    int x = 0;
+                    int y = 0;
+                    Experimento p = new Experimento();
+                    p.X = x;
+                    p.Y = y;
+                    Caminos.Add(p);
                     //Paso que va a dar
                     for (int j = 1; j <= pasos; j++)
                     {
@@ -59,23 +66,28 @@ namespace CaminosAleatorios
                         double AL = r.NextDouble();
 
                         //Seleccionamos dirección deseada según criterio
-                        if (AL <= 0.25)//Izquierda
+                        if (AL <= 0.25)//Izquierda (x-)
                         {
                             paso.PasoHacia = "Izquierda";
+                            x = x - 1;
                         }
-                        else if (AL > 0.25 && AL <= 0.5)//Arriba
+                        else if (AL > 0.25 && AL <= 0.5)//Arriba (y+)
                         {
                             paso.PasoHacia = "Arriba";
+                            y = y + 1;
                         }
-                        else if (AL > 0.5 && AL <= 0.75)//Derecha
+                        else if (AL > 0.5 && AL <= 0.75)//Derecha (x+)
                         {
                             paso.PasoHacia = "Derecha";
+                            x = x + 1;
                         }
-                        else //Abajo
+                        else //Abajo (y-)
                         {
                             paso.PasoHacia = "Abajo";
+                            y = y - 1;
                         }
-
+                        paso.X = x;
+                        paso.Y = y;
                         Caminos.Add(paso);
                     }
                 }
@@ -92,7 +104,7 @@ namespace CaminosAleatorios
             {
                 MessageBox.Show("Recuerde que si ha descargado algún resultado antes y no lo ha movido o renombrado el sistema lo remplazará automaticamente", "Información Datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 ExportToExcel.CreateExcelFile.CreateExcelDocument(Experimento, @"C:\Users\Public\Documents\DatosExperimentoPasos.xlsx");
-                
+
                 MessageBox.Show(@"El archivo « DatosExperimentoPasos.xlsx » se ha creado en la ruta C:\Users\Acceso Público\Documentos públicos", "Archivo Generado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Process.Start(@"C:\Users\Public\Documents\");
             }

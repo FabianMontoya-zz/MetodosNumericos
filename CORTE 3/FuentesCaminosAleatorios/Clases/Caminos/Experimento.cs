@@ -11,6 +11,8 @@ class Experimento
     public int NumeroPaso { set; get; }
     public string PasoHacia { set; get; }
 
+    public int X { set; get; }
+    public int Y { set; get; }
 
 }
 
